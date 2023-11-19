@@ -1,1 +1,30 @@
-.wp-block-create-block-boilerplate{border:1px dotted #f03}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@6.8.1_webpack@5.89.0/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/.pnpm/postcss-loader@6.2.1_postcss@8.4.31_webpack@5.89.0/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/.pnpm/sass-loader@12.6.0_sass@1.69.5_webpack@5.89.0/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/editor.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-block-course-todo-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.wp-block-block-course-todo-list ul li {
+  margin-bottom: 15px;
+}
+.wp-block-block-course-todo-list ul li label {
+  font-size: 16px;
+}
+.wp-block-block-course-todo-list ul li.todo-completed {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+.wp-block-block-course-todo-list .addtodo-form {
+  display: flex;
+  margin-top: 30px;
+}
+.wp-block-block-course-todo-list .addtodo-form input {
+  height: 36px;
+}
+.wp-block-block-course-todo-list .addtodo-form button {
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=index.css.map*/
